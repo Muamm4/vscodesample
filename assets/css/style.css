@@ -1,0 +1,343 @@
+body{
+    background-color: #228664 ;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    
+}
+
+
+.cabecalho {
+    background-color: #228664;
+    padding: 20px 0;
+    border-bottom: 1px rgba(255, 255, 255, 0.4) solid;
+}
+
+.conteinerHead{
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 150px;
+}
+
+.conteiner{
+    
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 150px;
+}
+.detalhes_conta{
+    background-color: #228664;
+}
+
+.iconName_left{
+    display:flex;
+    align-items: center;
+}
+
+.giftChat{
+    display: flex;
+}
+
+.cabecalho figure img {
+    width: 100%;
+    max-width: 140px;
+
+}
+.cabecalho_logoPicpro{
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    margin-right: 15px;
+}
+
+.detalhes_conta{
+    color: white;
+    padding-top: 3%;
+}
+
+
+.detalhes_contaUsuario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px rgba(0, 0, 0, 0.4) solid;
+}
+
+.detalhes_contaUsuario strong{
+    font-weight: bold;
+}
+.detalhes_contaUsuario img{
+    display: flex;
+    width: 100%;
+    max-width: 80px;
+    padding: 10px;
+}
+
+.giftChat img{
+    width: 100%;
+    max-width: 75px;
+}
+
+.detalhes_Saldo{
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+
+.detalhes_Saldo p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.iconeVisualizar{
+    width: 100%;
+    max-width: 30px;
+    padding-left: 10px;
+}
+.extrato {
+    padding: 20px 150px;
+    border-radius: 25px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.formas_pagamento{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item_pagamento {
+    background-color: #1F6F54;
+    align-items: center;
+    display: inline-block;
+    padding: 25px;
+    min-height: 160px;
+    min-width: 20%;
+    max-width: 20%;
+    border-radius: 25px;
+    margin: 15px;
+    
+    
+}
+
+.item_pagamento img{
+    width: 100%;
+    max-width: 45px;
+}
+
+.item_pagamento li p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.transacao{
+    background-color: white;
+    padding: 25px 0;
+    border-radius: 15px 15px 0 0;
+    border-bottom: 5px lightgray solid;
+}
+
+.formasdepagamento{
+    padding: 0 100px;
+    font-size: 24px;
+
+}
+
+.formasdepagamento p{
+    border-radius: 10px;
+    text-align: center;
+    border: 1px rgba(0, 0, 0, 0.4) solid;
+    padding: 20px 0%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formasdepagamento img{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+.formaQRcode {
+    display: block;
+    text-align: center;
+
+}
+
+.formaQRcode img{
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+.formaQRcode p{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.formaQRcode button{
+    display: block;
+    align-content: center;
+    color: white;
+    border: none;
+    padding: 20px 0;
+    border-radius: 10px;
+    background-color: #1F6F54;
+    min-width: 60%;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+.formaQRcode a{
+    display: block;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    text-decoration: underline;
+    font-weight: 500;
+    
+}
+
+#logoPix{
+    width: 100%;
+    max-width: 150px;
+}
+.formaPix {
+    display: block;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+.pix1{
+    display: flex;
+    padding-top: 50px;
+}
+
+
+.pix2{
+    width: 600px;
+    display: flex;
+    padding: 20px 10px;
+    margin: 20px 0;
+    align-items:  center;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.pix2 img{
+    width: 100%;
+    max-width: 50px;
+
+}
+
+.pix2 p{
+    padding-left: 10px;
+}
+.formaBoleto{
+    padding: 0 20px;
+}
+.formaBoleto img{
+    width: 100%;
+    max-width: 100px;
+}
+
+.formaBoleto h2{
+    font-weight: 600;
+}
+
+.formaBoleto p{
+    max-width: 600px;
+}
+
+.formaBoleto input{
+    width: 100%;
+    padding-left: 80px;
+    height: 50px;
+    box-align: center;
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    border-color: #D2D2D2;
+}
+
+.formaCobrar{
+    padding: 0 20px;
+
+}
+
+.formaCobrar h2 {
+    font-weight: 900;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px 0;
+}
+
+.formaCobrar p {
+    padding: 20px 0;
+
+}
+
+.iconCobrar{
+    display: flex;
+    border-radius: 10px;
+    border: 1px black solid;
+    align-content: center;
+    text-align: left;
+}
+
+.iconCobrar strong{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.iconCobrar img{
+    padding: 20px;
+    width: 100%;
+    max-width: 100px;
+}
+
+.menu_rodapé {
+    display: flex;
+    background-color: white;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_rodapé li{
+    align-content: center;
+    text-align: center;
+}
+
+.menu_rodapé li a{
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu_rodapé li a img{
+    width: 100%;
+    max-width: 50px;
+        
+}
+
+.menu_rodapé .item_menuPagar a img{
+    width: 100%;
+    max-width: 120px;
+    transform: translateY(-30px);
+}
