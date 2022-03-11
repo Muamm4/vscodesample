@@ -25,6 +25,7 @@ body {
   max-width: 800px;
   margin: 0 150px;
 }
+
 .detalhes_conta {
   background-color: #228664;
 }
@@ -42,6 +43,7 @@ body {
   width: 100%;
   max-width: 140px;
 }
+
 .cabecalho_logoPicpro {
   border-right: 1px solid rgba(255, 255, 255, 0.4);
   margin-right: 15px;
@@ -63,6 +65,7 @@ body {
 .detalhes_contaUsuario strong {
   font-weight: bold;
 }
+
 .detalhes_contaUsuario img {
   display: flex;
   width: 100%;
@@ -92,6 +95,7 @@ body {
   max-width: 30px;
   padding-left: 10px;
 }
+
 .extrato {
   padding: 20px 150px;
   border-radius: 25px;
@@ -100,6 +104,7 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
+
 .formas_pagamento {
   display: flex;
   justify-content: center;
@@ -136,8 +141,20 @@ body {
   border-bottom: 5px lightgray solid;
 }
 
+.transacao .containerForma div {
+  display: none;
+}
+
+.transacao .containerForma div.formasdepagamento.show{
+  display: block;
+}
+
+.transacao .containerForma div.show{
+  display: block;
+}
+
 .formasdepagamento {
-  padding: 0 100px;
+  padding: 20px 100px;
   font-size: 24px;
 }
 
@@ -201,11 +218,16 @@ body {
   text-decoration: underline;
   font-weight: 500;
 }
+.show2{
+  display:block;
+}
 
 #logoPix {
+  margin-left: 0;
   width: 100%;
   max-width: 150px;
 }
+
 .formaPix {
   display: block;
   text-align: center;
@@ -213,6 +235,7 @@ body {
 }
 
 .pix1 {
+  margin-left: 0;
   display: flex;
   padding-top: 50px;
 }
@@ -235,10 +258,13 @@ body {
 .pix2 p {
   padding-left: 10px;
 }
+
 .formaBoleto {
   padding: 0 20px;
 }
+
 .formaBoleto img {
+  margin-left:0;
   width: 100%;
   max-width: 100px;
 }
@@ -277,6 +303,14 @@ body {
   padding: 20px 0;
 }
 
+.formaCobrar img {
+  margin-left:0;
+  padding: 20px;
+  width: 100%;
+  max-width: 150px;
+  
+}
+
 .iconCobrar {
   display: flex;
   border-radius: 10px;
@@ -296,12 +330,13 @@ body {
   max-width: 100px;
 }
 
+
 .menu_rodapé {
   display: flex;
   background-color: white;
-
   justify-content: space-between;
   align-items: center;
+  padding: 0 100px;
 }
 
 .menu_rodapé li {
